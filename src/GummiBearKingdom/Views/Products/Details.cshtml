@@ -10,9 +10,9 @@
 
 <h2>Details</h2>
 <hr />
-<h4>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h4>
-<h4>@Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)</h4>
-<h4>@Html.DisplayNameFor(model => model.CountryOfOrigin): @Html.DisplayFor(model => model.CountryOfOrigin)</h4>
+<h2>@Html.DisplayFor(model => model.Name)</h2>
+<h4>@Html.DisplayFor(model => model.Cost)</h4>
+<h4>Made in @Html.DisplayFor(model => model.CountryOfOrigin)</h4>
 
 <p>
     @Html.ActionLink("Delete", "Delete", new { id = Model.ProductId, @class ="red"}) | 

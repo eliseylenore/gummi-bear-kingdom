@@ -34,7 +34,7 @@
     font-family: 'Berkshire Swash', cursive;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a{
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand:visited, .navbar-right:hover{
     color: white;
 }
 
@@ -65,6 +65,7 @@
 
 
 
+
 .secondary-nav .btn.selected, .secondary-nav .btn-info:hover  {
     background-color: #fcb514;
 }
@@ -83,7 +84,24 @@ input.form-control {
     border-radius: 15px;
     border-top: solid 2px #cbcbcb;
     border-left: 2px solid #cbcbcb;
+}
 
+.input-group {
+    width: 300px;
+}
+
+.input-group-btn>.btn {
+    border-radius: 25px;
+    color: black;
+    background-color: #fcb514;
+}
+
+.btn-default {
+    border-color: none;
+}
+
+.small-nav {
+    font-size: 12px;
 }
 
 @media (min-width: 768px) {
