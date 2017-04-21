@@ -15,3 +15,9 @@
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
     color: white;
 }
+
+
+.yellow {
+    color:#fcb514; 
+    display: block;
+}
