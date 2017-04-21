@@ -3,6 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Berkshire+Swash" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
@@ -37,7 +38,9 @@
                 </li>
             </ul>
         </nav>
-        @RenderBody()
+        <div class="render-body">
+            @RenderBody()
+        </div>
     </div>
 </body>
 </html>

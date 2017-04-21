@@ -1,14 +1,30 @@
-﻿
+﻿body {
+    font-family: 'Lato', sans-serif;;
+}
+.render-body {
+    margin-top: 40px;
+}
 
 /******************** NavBar ********************/
 
 .container-fluid {
     padding: 40px;
-    background-color: #cd1829;
-}
+      top:0px;
+      left:0px;
+      height:100%;
+      width:100%;
+  
+      background: 
+        radial-gradient(
+         farthest-corner at 45px 45px, 
+          #db4655, #d22737
+        );
+    }
 
 .navbar-default .navbar-brand {
     font-size: 40px;
+    text-shadow: -2px 2px #808080;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
@@ -21,17 +37,27 @@
 
 
 .secondary-nav .btn {
-    padding: 12px 35px;
+    padding: 10px 25px;
     border-radius: 0;
     border: none; 
+    margin-top: -21px;
+    margin-right: 5px;
 }
 
 .secondary-nav .btn a {
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 22px;
     color: black;
+    padding: 10px 0;
 }
 
-.secondary-nav .btn.selected {
-    color: white;
+
+
+.secondary-nav .btn.selected, .secondary-nav .btn-info:hover  {
     background-color: #fcb514;
+}
+
+.secondary-nav .btn.selected a, .secondary-nav .btn-info a:hover  {
+    color: white;
+    text-decoration: none;
 }
