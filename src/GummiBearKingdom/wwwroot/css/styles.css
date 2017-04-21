@@ -1,9 +1,6 @@
 ﻿body {
     font-family: 'Lato', sans-serif;
 }
-.render-body {
-    margin-top: 60px;
-}
 
 /******************** NavBar ********************/
 
@@ -103,6 +100,43 @@ input.form-control {
 .small-nav {
     font-size: 12px;
 }
+
+
+
+
+/******************** Gummi Display ********************/
+
+.gummi-display {
+    height: 200px;
+}
+
+ul.shop-by-type{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.shop-by-type li {
+    margin-bottom: 10px;
+}
+
+
+ul.shop-by-type a {
+    color: black;
+    padding-bottom: 4px;
+}
+
+.top-padding {
+    padding-top: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+/******************** Media Queries ********************/
 
 @media (min-width: 768px) {
     .secondary-nav .btn {

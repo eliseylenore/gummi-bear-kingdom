@@ -49,22 +49,48 @@
 </nav>
    
     <div class="container">
-        <nav>
-            <ul class="nav navbar-nav secondary-nav">
-                <li>
-                    <button class="btn btn-info selected">
-                        @Html.ActionLink("GUMMIES", "Index", "Products")
-                    </button>
-                </li>
-                <li>
-                    <button class="btn btn-info">
-                        @Html.ActionLink("CREATE NEW", "Create", "Products", new { @class = "yellow" })
-                    </button>
-                </li>
-            </ul>
-        </nav>
-        <div class="render-body">
-            @RenderBody()
+        <div class ="row">
+            <nav>
+                <ul class="nav navbar-nav secondary-nav">
+                    <li>
+                        <button class="btn btn-info selected">
+                            @Html.ActionLink("GUMMIES", "Index", "Products")
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-info">
+                            @Html.ActionLink("CREATE NEW", "Create", "Products", new { @class = "yellow" })
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h4 class="bold top-padding">Shop By Type</h4>
+                <ul class="shop-by-type">
+                    <li><a href="#">All Gummies</a></li>
+                    <li><a href="#">Individual Flavors</a></li>
+                    <li><a href="#">Gummi Rings</a></li>
+                    <li><a href="#">Sugar Free Gummies</a></li>
+                    <li><a href="#">Holiday & Sesonal</a></li>
+                    <li><a href="#">New Items</a></li>
+                    <li><a href="#">Top Sellers</a></li>
+                </ul>
+                
+
+                <h4 class="bold top-padding">By Taste</h4>
+                <ul class="shop-by-type">
+                    <li><a href="#">Chocolatey</a></li>
+                    <li><a href="#">Creamy Indulgence</a></li>
+                    <li<a href="#">Fresh & Fruity</a></li>
+                    <li><a href="#">Hot to Trot</a></li>
+                    <li><a href="#">Sourpuss</a></li>
+                </ul>
+            </div>
+            <div class="render-body col-md-9">
+                @RenderBody()
+            </div>
         </div>
     </div>
 </body>
