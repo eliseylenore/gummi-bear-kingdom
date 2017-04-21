@@ -6,7 +6,16 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model IEnumerable<GummiBearKingdom.Models.Product>
-<h2>Gummies!</h2>
+<div class="row">
+    <div class="col-md-5">
+        <img class="gummy-pic" src="~/img/gummies.jpg" />
+    </div>
+    <div class="col-md-7">
+        <h2 class="dark-red bold">Gummies!</h2>
+        <p>Gummies ipsum dolor sit amet cookie cake apple pie brownie. Candy canes sugar plum jelly beans brownie jelly beans lemon drops wafer. Cookie cake oat cake powder donut dessert. Caramels tootsie roll chupa chups lemon drops I love. Pudding chupa chups marzipan I love liquorice lollipop. </p>
+        <p>Powder ice cream lollipop cotton candy dragée cake brownie. Gingerbread icing jujubes I love. Toffee I love lollipop macaroon icing lollipop. I love brownie lollipop sweet I love topping macaroon dessert ice cream. I love halvah toffee cookie cupcake marshmallow pudding. </p>
+    </div>
+</div>
 
 @foreach (var product in Model)
 {
