@@ -15,25 +15,28 @@
                 <a class="navbar-brand" href="#">Gummi Bear Kingdom</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Gummies</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-    <nav>
-        <ul class="nav navbar-nav">
-            <li>
-                @Html.ActionLink("Gummies", "Index", "Products", new { @class = "yellow" })
-            </li>
-            <li>
-                @Html.ActionLink("Create New", "Create", "Products", new { @class = "yellow" })
-            </li>
-        </ul>
-    </nav>
+   
     <div class="container">
+        <nav>
+            <ul class="nav navbar-nav secondary-nav">
+                <li>
+                    <button class="btn btn-info selected">
+                        @Html.ActionLink("GUMMIES", "Index", "Products")
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-info">
+                        @Html.ActionLink("CREATE NEW", "Create", "Products", new { @class = "yellow" })
+                    </button>
+                </li>
+            </ul>
+        </nav>
         @RenderBody()
     </div>
 </body>
