@@ -14,4 +14,7 @@
 <h4>@Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)</h4>
 <h4>@Html.DisplayNameFor(model => model.CountryOfOrigin): @Html.DisplayFor(model => model.CountryOfOrigin)</h4>
 
-<p>@Html.ActionLink("Delete", "Delete", new { id = Model.ProductId, @class ="red"})</p>
+<p>
+    @Html.ActionLink("Delete", "Delete", new { id = Model.ProductId, @class ="red"}) | 
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductId, @class = "red" })
+</p>
