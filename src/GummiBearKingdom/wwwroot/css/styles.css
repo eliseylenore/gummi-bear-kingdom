@@ -133,7 +133,7 @@ ul.shop-by-type a {
     font-weight: bold;
 }
 
-.dark-red { 
+.dark-red, .dark-red a { 
     color:#af1e2d 
 }
 

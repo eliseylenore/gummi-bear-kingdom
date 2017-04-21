@@ -16,14 +16,17 @@
         <p>Powder ice cream lollipop cotton candy dragée cake brownie. Gingerbread icing jujubes I love. Toffee I love lollipop macaroon icing lollipop. I love brownie lollipop sweet I love topping macaroon dessert ice cream. I love halvah toffee cookie cupcake marshmallow pudding. </p>
     </div>
 </div>
+<div class="row">
 
-@foreach (var product in Model)
-{
-    <div class="col-lg-3 col-md-4 col-sm-6 gummi-display">
-        <h4> @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })</h4>
-    </div>
-}
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-md-4 col-sm-6 gummi-display">
+            <h4> @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })</h4>
+        </div>
+    }
 
+</div>
+<div class="row">
 
-
-<div>@Html.ActionLink("Add new product", "Create", new { @class = "btn btn-success" })</div>
+    <div class="dark-red">@Html.ActionLink("Add new product", "Create")</div>
+</div>
