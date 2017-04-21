@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;
 }
 .render-body {
     margin-top: 40px;
@@ -7,17 +7,18 @@
 
 /******************** NavBar ********************/
 
-.container-fluid {
+.navbar-default {
+    border-radius: none;
     padding: 40px;
       top:0px;
       left:0px;
       height:100%;
       width:100%;
-  
+      border-color: #cd1829;
       background: 
         radial-gradient(
          farthest-corner at 45px 45px, 
-          #db4655, #d22737
+          #db4655, #cd1829
         );
     }
 
@@ -27,7 +28,7 @@
     font-family: 'Berkshire Swash', cursive;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a{
     color: white;
 }
 
@@ -40,9 +41,13 @@
     padding: 10px 25px;
     border-radius: 0;
     border: none; 
-    margin-top: -21px;
+    margin-top: 0px;
     margin-right: 5px;
 }
+
+.secondary-nav:first-child button {
+        margin-top: -0px;
+    }
 
 .secondary-nav .btn a {
     font-weight: 700;
@@ -60,4 +65,10 @@
 .secondary-nav .btn.selected a, .secondary-nav .btn-info a:hover  {
     color: white;
     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .secondary-nav .btn {
+        margin-top: -20px;
+    }
 }
