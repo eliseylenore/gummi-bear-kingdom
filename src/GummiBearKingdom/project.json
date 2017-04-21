@@ -15,7 +15,8 @@
     "Microsoft.EntityFrameworkCore.Tools": {
       "version": "1.0.0-preview2-final",
       "type": "build"
-    }
+    }, 
+    "Microsoft.AspNetCore.StaticFiles": "1.0.0"
   },
 
   "tools": {
