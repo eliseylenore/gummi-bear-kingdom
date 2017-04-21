@@ -4,9 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace GummiBearKingdom.Models
 {
-    public class GummiBearKingdomContext: DbContext
+    public class GummiBearKingdomContext : DbContext
     {
         public GummiBearKingdomContext()
         {
@@ -14,16 +15,16 @@ namespace GummiBearKingdom.Models
 
         public DbSet<Product> Products { get; set; }
 
+        
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=GummiBearKingdom;integrated security=True");
+          options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=GummiBearKingdom;integrated security=True");
         }
 
         public GummiBearKingdomContext(DbContextOptions<GummiBearKingdomContext> options)
-            :base(options)
+            : base(options)
         {
-
-        } 
+        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
