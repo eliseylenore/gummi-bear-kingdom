@@ -2,14 +2,14 @@
     font-family: 'Lato', sans-serif;
 }
 .render-body {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 /******************** NavBar ********************/
 
 .navbar-default {
-    border-radius: none;
-    padding: 40px;
+    border-radius: 0;
+    padding: 10px;
       top:0px;
       left:0px;
       height:100%;
@@ -22,8 +22,14 @@
         );
     }
 
+.kingdom {
+    display: block;
+    margin-top: 25px;
+    font-size: 50px;
+}
+
 .navbar-default .navbar-brand {
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: -2px 2px #808080;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -31,6 +37,7 @@
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a{
     color: white;
 }
+
 
 .secondary-nav .btn-info {
     background-color: white;
@@ -67,8 +74,26 @@
     text-decoration: none;
 }
 
+.form-control  {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input.form-control {
+    border-radius: 15px;
+    border-top: solid 2px #cbcbcb;
+    border-left: 2px solid #cbcbcb;
+
+}
+
 @media (min-width: 768px) {
     .secondary-nav .btn {
         margin-top: -20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-default .navbar-brand {
+        font-size: 40px;
     }
 }
