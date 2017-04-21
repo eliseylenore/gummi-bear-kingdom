@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GummiBearKingdom.Controllers
 {
-    public class ProductController : Controller
+    public class ProductsController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
