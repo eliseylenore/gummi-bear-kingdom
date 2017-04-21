@@ -1,5 +1,4 @@
-﻿body {
-}
+﻿
 
 /******************** NavBar ********************/
 
@@ -17,7 +16,11 @@
 }
 
 
-.yellow {
+a.yellow {
     color:#fcb514; 
     display: block;
+}
+
+a.red {
+    color: red;
 }
