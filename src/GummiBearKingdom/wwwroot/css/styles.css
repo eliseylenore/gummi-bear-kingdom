@@ -7,8 +7,8 @@
 .navbar-default {
     border-radius: 0;
     padding: 10px;
-      top:0px;
-      left:0px;
+      top:0;
+      left:0;
       height:100%;
       width:100%;
       border-color: #cd1829;
@@ -45,12 +45,12 @@
     padding: 10px 25px;
     border-radius: 0;
     border: none; 
-    margin-top: 0px;
+    margin-top: 0;
     margin-right: 5px;
 }
 
 .secondary-nav:first-child button {
-        margin-top: -0px;
+        margin-top: 0;
     }
 
 .secondary-nav .btn a {
@@ -63,11 +63,11 @@
 
 
 
-.secondary-nav .btn.selected, .secondary-nav .btn-info:hover  {
+.secondary-nav .selected .btn, .secondary-nav .btn-info:hover  {
     background-color: #fcb514;
 }
 
-.secondary-nav .btn.selected a, .secondary-nav .btn-info a:hover  {
+.secondary-nav .selected .btn a, .secondary-nav .btn-info a:hover  {
     color: white;
     text-decoration: none;
 }

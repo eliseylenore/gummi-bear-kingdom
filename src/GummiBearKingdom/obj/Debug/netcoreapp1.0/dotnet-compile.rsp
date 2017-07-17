@@ -1,5 +1,5 @@
---temp-output:C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\
---out:C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\bin\Debug\netcoreapp1.0\GummiBearKingdom.dll
+--temp-output:C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\
+--out:C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\bin\Debug\netcoreapp1.0\GummiBearKingdom.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -195,13 +195,13 @@
 --reference:C:\Users\elise\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\elise\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\elise\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Program.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Startup.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Controllers\HomeController.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Controllers\ProductsController.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Migrations\20170421164544_Initial.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Migrations\20170421164544_Initial.Designer.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Migrations\GummiBearKingdomContextModelSnapshot.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Models\GummiBearKingdomContext.cs
-C:\Users\elise\Desktop\gummi-bear-kingdom\src\GummiBearKingdom\Models\Product.cs
+--resource:"C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Program.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Startup.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Controllers\HomeController.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Controllers\ProductsController.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Migrations\20170421164544_Initial.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Migrations\20170421164544_Initial.Designer.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Migrations\GummiBearKingdomContextModelSnapshot.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Models\GummiBearKingdomContext.cs
+C:\Users\elise\OneDrive\Documents\Visual Studio 2015\Projects\gummi-bear-kingdom\src\GummiBearKingdom\Models\Product.cs

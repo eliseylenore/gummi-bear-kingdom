@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Berkshire+Swash" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="~/scripts/JavaScript.js"></script>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
 </head>
@@ -53,13 +55,13 @@
             <nav>
                 <ul class="nav navbar-nav secondary-nav">
                     <li>
-                        <button class="btn btn-info selected">
+                        <button class="btn btn-info @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "selected" : "")">
                             @Html.ActionLink("GUMMIES", "Index", "Products")
                         </button>
                     </li>
                     <li>
-                        <button class="btn btn-info">
-                            @Html.ActionLink("CREATE NEW", "Create", "Products", new { @class = "yellow" })
+                        <button class="btn btn-info @(ViewContext.RouteData.Values["Action"].ToString() == "Create" ? "selected" : "")">
+                            @Html.ActionLink("CREATE NEW", "Create", "Products")
                         </button>
                     </li>
                 </ul>
@@ -73,7 +75,7 @@
                     <li><a href="#">Individual Flavors</a></li>
                     <li><a href="#">Gummi Rings</a></li>
                     <li><a href="#">Sugar Free Gummies</a></li>
-                    <li><a href="#">Holiday & Sesonal</a></li>
+                    <li><a href="#">Holiday & Seasonal</a></li>
                     <li><a href="#">New Items</a></li>
                     <li><a href="#">Top Sellers</a></li>
                 </ul>

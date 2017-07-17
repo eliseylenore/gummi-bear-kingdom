@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "f11a9cc2b8fe0393e0cc7bbff90a22487e9865fe"
+    "signature": "20ee3fca40953f06daeb801f42bf9eb177327080"
   },
   "compilationOptions": {
     "defines": [
@@ -25,12 +25,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "1.0.0",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "jQuery": "3.1.1"
         },
         "compile": {
           "GummiBearKingdom.dll": {}
         }
       },
+      "jQuery/3.1.1": {},
       "Libuv/1.9.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -2691,12 +2693,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "1.0.0",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "jQuery": "3.1.1"
         },
         "runtime": {
           "GummiBearKingdom.dll": {}
         }
       },
+      "jQuery/3.1.1": {},
       "Libuv/1.9.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -5258,6 +5262,11 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XGsgwse025NxNPHjY7GE8HMFNzjqsa7a/PmNS1S5bVU++pNpZmiTnzUBK6OmECnqG/fIMVaAYHTnfoYd/Wz28g=="
     },
     "Libuv/1.9.0": {
       "type": "package",
