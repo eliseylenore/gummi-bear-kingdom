@@ -27,6 +27,10 @@
         <label for="CountryOfOrigin">Country of Origin</label>
         @Html.EditorFor(model => model.CountryOfOrigin, new { @class = "form-control" })
     </div>
+    <div class="form-group">
+        <label for="ImageUrl">Image Url (copy and paste Url here)</label>
+        @Html.EditorFor(model => model.ImageUrl, new { @class = "form-control" })
+    </div>
         <input type="submit" value="Save" class="btn btn-warning" />
         }
         @Html.ActionLink("Back to List", "Index")
