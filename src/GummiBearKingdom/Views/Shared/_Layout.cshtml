@@ -56,13 +56,13 @@
         <div class ="row">
             <nav>
                 <ul class="nav navbar-nav secondary-nav">
-                    <li>
-                        <button class="btn btn-info @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "selected" : "")">
+                    <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "selected" : "")">
+                        <button class="btn btn-info">
                             @Html.ActionLink("GUMMIES", "Index", "Products")
                         </button>
                     </li>
-                    <li>
-                        <button class="btn btn-info @(ViewContext.RouteData.Values["Action"].ToString() == "Create" ? "selected" : "")">
+                    <li class=" @(ViewContext.RouteData.Values["Action"].ToString() == "Create" ? "selected" : "")">
+                        <button class="btn btn-info">
                             @Html.ActionLink("CREATE NEW", "Create", "Products")
                         </button>
                     </li>
