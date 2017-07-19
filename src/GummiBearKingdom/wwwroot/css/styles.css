@@ -114,6 +114,7 @@ input.form-control {
     height: 200px;
 }
 
+
 ul.shop-by-type{
     list-style: none;
     padding-left: 0;
@@ -141,11 +142,9 @@ ul.shop-by-type a {
     color:#af1e2d 
 }
 
-.gummy-pic {
+.gummy-pic, list-pic {
     width: 100%;
 }
-
-
 
 /******************** Media Queries ********************/
 
