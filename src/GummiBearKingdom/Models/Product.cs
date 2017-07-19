@@ -15,6 +15,10 @@ namespace GummiBearKingdom.Models
         public decimal Cost { get; set; }
         public string CountryOfOrigin { get; set; }
         public string ImageUrl { get; set; }
-
+        public bool IsIndividualFlavor { get; set; }
+        public bool IsGummiRing { get; set; }
+        public bool IsSugarFree { get; set;}
+        public bool IsSeasonal { get; set; }
+        public bool IsNew { get; set; }
     }
 }

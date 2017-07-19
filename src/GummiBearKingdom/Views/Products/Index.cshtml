@@ -7,7 +7,7 @@
 }
 @model IEnumerable<GummiBearKingdom.Models.Product>
 <div class="row">
-    <div class="col-md-5">
+    <div class="col-xs-5">
         <img class="gummy-pic" src="~/img/gummies.jpg" />
     </div>
     <div class="col-md-7">
@@ -16,18 +16,19 @@
         <p>Powder ice cream lollipop cotton candy dragée cake brownie. Gingerbread icing jujubes I love. Toffee I love lollipop macaroon icing lollipop. I love brownie lollipop sweet I love topping macaroon dessert ice cream. I love halvah toffee cookie cupcake marshmallow pudding. </p>
     </div>
 </div>
-<div class="row">
+<div class="product-list row">
 
     @foreach (var product in Model)
     {
         <div class="col-lg-3 col-md-4 col-sm-6 gummi-display">
-            <h4> @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })</h4>
             <img class="list-pic" alt="@product.Name" src="@product.ImageUrl" />
+            <h4> @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })</h4>
         </div>
     }
 
 </div>
 <div class="row">
-
-    <div class="dark-red">@Html.ActionLink("Add new product", "Create")</div>
+    <div class="col-xs-12">
+        <div class="dark-red">@Html.ActionLink("Add new product", "Create")</div>
+    </div>
 </div>

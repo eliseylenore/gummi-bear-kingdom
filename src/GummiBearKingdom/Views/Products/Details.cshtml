@@ -12,6 +12,10 @@
 <h2>@Html.DisplayFor(model => model.Name)</h2>
 <h4>@Html.DisplayFor(model => model.Cost)</h4>
 <h4>Made in @Html.DisplayFor(model => model.CountryOfOrigin)</h4>
+@foreach(var category in Model.Category)
+{
+    <h5>@category</h5>
+}
 <a href="@Model.ImageUrl">@Html.DisplayFor(model => model.ImageUrl)</a>
 <p>
     @Html.ActionLink("Delete", "Delete", new { id = Model.ProductId, @class ="red"}) | 

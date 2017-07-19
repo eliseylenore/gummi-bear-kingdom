@@ -109,19 +109,10 @@ input.form-control {
 
 
 /******************** Gummi Display ********************/
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .gummi-display {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 30px 20px;
-
+    height: 200px;
 }
-
 
 ul.shop-by-type{
     list-style: none;
@@ -147,17 +138,13 @@ ul.shop-by-type a {
 }
 
 .dark-red, .dark-red a { 
-    color:#af1e2d;
+    color:#af1e2d 
 }
 
-.gummy-pic{
+.gummy-pic {
     width: 100%;
 }
 
-.list-pic {
-    width: 100%;
-    align-self: center;
-}
 
 
 /******************** Media Queries ********************/

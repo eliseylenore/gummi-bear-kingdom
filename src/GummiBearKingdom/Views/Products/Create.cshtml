@@ -28,6 +28,14 @@
         <label for="Image Url">Image Url (copy and paste here)</label>
         @Html.TextBoxFor(model => model.ImageUrl, new { @class = "form-control" })
     </div>
+    <div class="form-group">
+        <label for="Category">Category</label>
+        <div>
+            <input type="checkbox"  value="gummiRings">
+            <label for="Gummi Rings">Gummi Rings</label>\
+            @Html.CheckBoxFor(model => model.IsGummiRing, new { @class = "form-control" })
+        </div>
+    </div>
 
         <input type="submit" value="Add new product" class="btn btn-success" />
         }
